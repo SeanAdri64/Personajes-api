@@ -77,11 +77,11 @@ Crear personaje:
 curl -X POST http://localhost:8080/api/characters \
 -H "Content-Type: application/json" \
 -d '{
-  "name": "Nuevo personaje",
-  "identification": "INV-005",
-  "image": "https://url.com",
-  "role": "Héroe",
-  "description": "Descripción del personaje"
+  "name": "Cecil Stedman",
+  "identification": "14",
+  "image": "https://static.wikia.nocookie.net/amazon-invincible/images/f/f1/CecilProfile.png/revision/latest?cb=20250812171717",
+  "role": "Antihéroe",
+  "description": "Es un escudo para la humanidad ,aunque sus métodos son poco ortodoxos."
 }'
 
 Obtener personajes:
@@ -94,10 +94,10 @@ Actualizar :
 curl -X PUT http://localhost:8080/api/characters/1 \
 -H "Content-Type: application/json" \
 -d '{
-  "name": "Nombre actualizado",
-  "role": "Nuevo rol",
-  "description": "Nueva descripción",
-  "image": "https://nueva-url.com"
+  "name": "Oliver Grayson",
+  "role": "Antihéroe",
+  "description": "Es el hermano menor de Mark ,también conocido como Omni kid.",
+  "image": "https://static.wikia.nocookie.net/p__/images/0/08/Image_5052.webp/revision/latest/scale-to-width/360?cb=20220806024156&path-prefix=protagonist"
 }'
 
 Eliminar: 
