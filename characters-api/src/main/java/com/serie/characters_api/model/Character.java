@@ -83,5 +83,4 @@ public class Character {
         this.createdAt = createdAt;
     }
 
-    // getters y setters
 }

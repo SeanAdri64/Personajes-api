@@ -14,7 +14,7 @@ function CharacterList() {
   return (
     <div className="container mt-4">
 
-      {/* 🔽 ORDENAMIENTO */}
+      {/*ORDENAMIENTO */}
       <div className="row mb-3">
         <div className="col-md-4">
           <select
@@ -27,7 +27,7 @@ function CharacterList() {
         </div>
       </div>
 
-      {/* 🧱 GRID DE CARDS */}
+      {/*GRID DE CARDS */}
       <div className="row">
         {characters.map((c) => (
           <div className="col-md-4 mb-4" key={c.id}>
@@ -55,7 +55,7 @@ function CharacterList() {
         ))}
       </div>
 
-      {/* 🪟 MODAL */}
+      {/* MODAL */}
       {selected && (
         <CharacterModal
           character={selected}

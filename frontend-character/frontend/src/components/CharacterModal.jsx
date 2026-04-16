@@ -48,7 +48,7 @@ function CharacterModal({ character, onClose }) {
             {/* BODY */}
             <div className="modal-body">
 
-              {/* 🧠 MODO VISUALIZACIÓN */}
+              {/*MODO VISUALIZACIÓN */}
               {!isEditing && (
                 <div className="text-center">
                   <img
@@ -63,7 +63,7 @@ function CharacterModal({ character, onClose }) {
                 </div>
               )}
 
-              {/* ✏️ MODO EDICIÓN */}
+              {/*MODO EDICIÓN */}
               {isEditing && (
                 <>
                   <input
@@ -106,7 +106,7 @@ function CharacterModal({ character, onClose }) {
 
             </div>
 
-            {/* FOOTER */}
+            {/*FOOTER */}
             <div className="modal-footer">
 
               {!isEditing ? (
@@ -156,7 +156,7 @@ function CharacterModal({ character, onClose }) {
         </div>
       </div>
 
-      {/* Fondo oscuro detrás */}
+      {/*Fondo oscuro detrás */}
       <div className="modal-backdrop fade show"></div>
     </>
   );
